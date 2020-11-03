@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body {
+	margin: auto;
+	padding: auto;
+}
+
+/*-- LINK --*/
+a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #0010ff;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding: 10px;	
+}
+
+/*FIM*/
+
+/*PARAGRAFO*/
+
+p {
+	text-align: justify;
+	padding: 9px;
+	font-size: 1.1em;
+}
+
+.ppdocarro {
+    margin-left: 152px;
+}
+
+/*TITULO*/
+
+/*pagina index*/
+.margem-titulo-index {
+    background: url(/img/fundotitulo.png) ;
+    background-repeat: repeat-x;
+    background-size: 250px;
+	margin-left: 8px;
+}
+
+/*pagina nossos-valores*/
+.margem-titulo-valores {
+    background-image: url(/img/fundotitulo.png);
+    background-repeat: repeat-x;
+    background-size: 300px;
+	margin-left: 8px;
+}
+
+/*pagina nossos-valores*/
+.margem-titulo-automovel {
+    background-image: url(/img/fundotitulo.png);
+    background-repeat: repeat-x;
+    background-size: 300px;
+	margin-left: 8px;
+}
+
+.margem-titulo {
+	margin-left: 8px;
+}
+
+/*pagina contato*/
+
+form {
+    margin-left: 300px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+.honda {
+    font-size: 1.0em;
+    color: #0010ff; 
+}
+
+.matriz {
+     margin-left: 400px;
+    font-size: 1.1em;
+}
+
+/*imagens para alterar*/
+
+/*pagina nossos-valores*/
+.imgfabricahonda {
+    margin-left: 350px;
+}
+
+.imgcarros {
+     width: 420px;
+    height: 249px;
+}
+
+/*palavras de formatação*/
+
+hr {
+    width: 500px;
+}
+
+.corvermelho {
+    color: #ff0000;
+}
+
+.corazul {
+    color: #0000ff;
+}
+
+.negrito {
+   font-weight: 700; 
+}
+
+/*rodape*/
+
+tfoot {
+    font-size: 1.1em;
+}
